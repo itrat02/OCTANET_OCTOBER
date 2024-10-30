@@ -1,0 +1,338 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>craze.com</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <style>
+            * {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+header{
+    position: sticky;
+    top:0.1px
+}
+.navbar {
+    height: 80px;
+    background-color: palevioletred;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 65px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.logo {
+    background-image: url("craze logo.jpg");
+    background-size: cover;
+    height: 65px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.border {
+    border-bottom: 1.5px  solid transparent ;
+    
+}
+
+.border:hover {
+    border-bottom: 2.5px solid whitesmoke;
+}
+
+
+
+/** box2 **/
+
+.add-first {
+    color: rgb(32, 29, 29);
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+.add-second {
+    color: black;
+    font-size: 1rem;
+    margin-left: 5px;
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+
+}
+
+/** box3 **/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 3px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(93, 93, 191);
+}
+
+/** box4 **/
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** box5 **/
+
+.nav-cart i {
+    font-size: 32px;
+}
+
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/** herosection **/
+
+.hero-section {
+    background-image: url("Hero\ Banner.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg {
+    background-color:antiquewhite;
+    color: rgb(187, 73, 111);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: cursive;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+/** shop section **/
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:whitesmoke;
+}
+
+.box {
+    border: 2px solid transparent;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 0px 0px 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.box-img {
+    height: 350px;
+    background-size: cover;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    background-color: rgb(187, 73, 111);
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+
+.men{
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.women{
+    width: 90px;
+    margin-left: 90px;
+    margin-top: 5px;
+  
+}
+
+.footwear{
+    width: 110px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.bags{
+    width: 60px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="nav-logo border">
+                    <div class="logo" style="background-image: url('crazelogo.jpg');">
+                    </div>
+                </div>
+
+                <div class="nav-address border">
+                    <p class="add-first">Deliver to</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="add-second">India</p>
+                    </div>
+                </div>
+
+                <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>
+                    </select>
+                    <input placeholder="Search Craze" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+
+                <div class="nav-signin border">
+                    <a href="signin.html"><span>Hello,Sign in</span></a>
+                    <p class="nav-second">My Account</p>
+                </div>
+
+                <div class="nav-return border">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second">& Orders</p>
+                </div>
+
+                <div class="nav-cart border">
+                    <i class="fa-brands fa-opencart"></i>
+                    Cart
+                </div>
+            </div>
+
+        </header>
+
+        <div class="hero-section">
+            <div class="hero-msg">
+                #Crazy4fashion
+            </div>
+        </div>
+
+
+        <div class="shop-section">
+            <div class="box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url('mensfashion.jpeg');"></div>
+                    <a href="mensfashion.html">
+                        <h2 class="men">Men</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url('womensfashion.jpeg');"></div>
+                    <a href="womensfashion.html">
+                        <h2 class="women">Women</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url('footwear.jpg');"></div>
+                    <a href="footwear.html">
+                        <h2 class="footwear">Footwear</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url('bags.jpg');"></div>
+                    <a href="bags.html">
+                        <h2 class="bags">Bags</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
